@@ -1,0 +1,25 @@
+header{
+    width: 100%;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+    padding: 20px;
+    border-bottom: 1px solid #2e2d2d;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo-holder{
+    display: flex;
+    cursor: pointer;
+    user-select: none;
+}
+.nav-side-menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.un-underline{
+    text-decoration: none;
+}

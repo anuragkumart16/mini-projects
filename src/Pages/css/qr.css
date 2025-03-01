@@ -1,0 +1,34 @@
+.qr-button:hover{
+    color: white;
+    background-color: green;
+    border: 1px solid #141414;
+
+}
+
+.qr-button{
+    color: #fdfbe3 ;
+    background-color:#141414 ;
+    border: 1px solid #fdfbe3;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.qr-holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    background-color: #141414;
+    border: 1px solid #fdfbe3;
+    padding: 20px 20px;
+    width: fit-content;
+    align-self: center;
+}
+
+.qr-canvas{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #fdfbe3;
+}

@@ -15,6 +15,7 @@ export default function Navbar(){
                 </div>
                 <ul className="nav-side-menu">
                     <li><Link to={'/'} className="un-underline">Home</Link></li>
+                    <li><a href="https://portfolio-mu-seven-48.vercel.app/" className="un-underline">Portfolio</a></li>
                 </ul>
             </nav>
         </header>

@@ -1,0 +1,9 @@
+.loadingHolder{
+    /* border: 1px solid ; */
+    box-shadow: 0px 0px 1px 0px;
+    padding: 20px 30px;
+    border-radius: 12px;
+    width: fit-content;
+    font-size: 1.25rem;
+    user-select: none;
+}

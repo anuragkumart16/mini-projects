@@ -30,6 +30,7 @@ export default function Notes() {
     <>
       <Navbar />
       <div className="main">
+      <h1>Notes Taking App</h1>
         <div className="create-notes-section">
           {isempty && (
             <input

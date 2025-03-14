@@ -10,6 +10,7 @@ export default function Notes() {
   const FirstFocusInput = useRef(null);
   const TextAreaFocus = useRef(null);
   const InputTitle = useRef(null);
+  const array = ['long_tasks_span_log','long_tasks_event_log','__3g4_session_id','events_data','loglevel']
 
   useEffect(() => {
     if (isempty) {
@@ -108,7 +109,7 @@ export default function Notes() {
         <div className="show-notes-section">
           {Object.keys(localStorage).map((key) => {
             return (
-              key !== "loglevel" && (
+              !array.includes(key) && (
                 <div className="notes-card" key={key}>
                   <h3 style={{ marginBottom: "10px" }}>{key}</h3>
                   <p>{localStorage.getItem(key)}</p>

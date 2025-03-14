@@ -22,13 +22,8 @@ export default function QR() {
       <Navbar />
       <Heading headingName={"QR Generator"} />
 
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          marginTop: "3rem",
-          alignItems: "flex-start",
-        }}
+      <div className="qr-mobile-holder"
+        
       >
         <textarea
           name=""

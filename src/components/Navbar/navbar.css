@@ -23,3 +23,17 @@ nav{
 .un-underline{
     text-decoration: none;
 }
+
+@media screen and (max-width: 600px) {
+    .nav-side-menu{
+        display: none;
+    }
+    nav{
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-logo-holder{
+        justify-content: center;
+        align-items: center;
+    }
+}

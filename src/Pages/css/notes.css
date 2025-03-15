@@ -104,6 +104,16 @@
     border: 1px solid #2E2D2D;
     margin: 1rem;
 }
+
+.notes-card-btn{
+    background-color: #141414;
+    border: none;
+    /* padding: 10px 10px; */
+    font-size: 1rem;
+    color: rgb(182, 179, 179);
+    cursor: pointer;
+    margin-top: 1rem;
+}
 @media  screen and (max-width: 600px) {
     .first-focused-notes-input{
         width: 80vw;

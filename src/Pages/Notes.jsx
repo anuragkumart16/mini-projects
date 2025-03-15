@@ -115,7 +115,7 @@ export default function Notes() {
                   <h3 style={{ marginBottom: "10px" }}>{key}</h3>
                   <p>{localStorage.getItem(key)}</p>
                   <button
-                    className="notes-btn"
+                    className=" notes-card-btn"
                     onClick={() => {
                       localStorage.removeItem(key);
                       setValue(""); // Ensure textarea resets if deleted

@@ -18,6 +18,7 @@ export default function Navbar(){
                     <li><Link to={'/qr'} className="un-underline">QR Generator</Link></li>
                     <li><Link to={'/book'} className="un-underline">Book Recommendation</Link></li>
                     <li><Link to={'/notes'} className="un-underline">Notes</Link></li>
+                    <li><Link to='/auth' className="un-underline">Sign In</Link></li>
                     <li><a href="https://portfolio-mu-seven-48.vercel.app/" className="un-underline">Portfolio</a></li>
                 </ul>
             </nav>

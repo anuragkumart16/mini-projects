@@ -39,8 +39,10 @@ function Home(){
             {
                 array.map((element,index)=>{
                     return(
-                        <div className="home-card" key={index} onClick={()=>{
-                            navigate(element['page'])
+                        <div className="home-card" key={index} onClick={function () {
+                            setTimeout(()=>{
+                                navigate(element['page']);
+                            },100)
                         }}>
                 <img src={element.source} alt="" className="home-card-image" />
                 <h3 className="home-card-heading

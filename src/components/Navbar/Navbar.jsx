@@ -1,15 +1,17 @@
-import { Link } from "react-router-dom"
+import { Link,useNavigate } from "react-router-dom"
+
 import './navbar.css'
 export default function Navbar(){
-    function navigate(){
-        window.open( 'https://portfolio-mu-seven-48.vercel.app/','__blank')
+    const navigate = useNavigate()
+    function navi(){
+        navigate('/')
     }
     return(
         
         <>
         <header>
             <nav>
-                <div className="nav-logo-holder" onClick={navigate}>
+                <div className="nav-logo-holder" onClick={navi}>
                     <p className="pacifico">MiniProjects</p>
                     <p className="calm " style={{alignSelf: 'flex-end', marginTop:'10px',marginLeft:'5px'}}>by Anurag</p>
                 </div>

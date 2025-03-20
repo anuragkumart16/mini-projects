@@ -30,6 +30,12 @@ function Home(){
             title : 'Typical Authentication Page',
             desc : 'Are you a member? Login else signup!',
             page :'/auth'
+        },
+        {
+            source: 'card-img/expense.png',
+            title : 'Expense Tracker',
+            desc : 'Track your daily expenses',
+            page :'/expense'
         }
     ]
     return (
